@@ -1,6 +1,6 @@
 .jumbotron {
     text-align: center;
-    background-color: rgb(212, 212, 212);
+    background-color: rgb(236, 92, 92);
 }
 
 .display-4 {
@@ -22,4 +22,13 @@
 
 .inner-card-header {
     font-size: 25px;
+}
+
+.table-input {
+    padding: 20px;
+}
+
+.submit-btn-div {
+    padding-left: 20px;
+    padding-bottom: 20px;
 }

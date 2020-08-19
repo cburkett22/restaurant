@@ -14,6 +14,7 @@
     <!-- Material Design Bootstrap -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
 
+    <link rel="icon" href="./assets/images/hamburger.png">
     <link rel="stylesheet" href="./assets/style.css" />
 </head>
 <body>
@@ -25,6 +26,41 @@
             <br>
             <a href="./home.html" class="btn-floating btn-lg btn-default"><i class="fas fa-home"></i></a>
             <a href="reserve-view.html"><button class="view-tables btn btn-primary"><i class="fas fa-table mr-2"></i> View Tables</button></a>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="card">
+                    <h5 class="card-header">Table Reservation</h5>
+
+                    <div class="table-input">
+                        <div class="md-form">
+                            <i class="fas fa-user prefix"></i>
+                            <input type="text" id="reserve-name" class="form-control">
+                            <label for="reserve-name">Name</label>
+                        </div>
+                        <div class="md-form">
+                            <i class="fas fa-mobile-alt prefix"></i>
+                            <input type="text" id="reserve-phone" class="form-control">
+                            <label for="reserve-phone">Phone Number</label>
+                        </div>
+                        <div class="md-form">
+                            <i class="fas fa-envelope prefix"></i>
+                            <input type="text" id="reserve-email" class="form-control">
+                            <label for="reserve-email">E-mail address</label>
+                        </div>
+                        <div class="md-form">
+                            <i class="fas fa-fingerprint prefix"></i>
+                            <input type="text" id="reserve-id" class="form-control">
+                            <label for="reserve-id">Unique ID</label>
+                        </div>
+                    </div>
+                    <div class="submit-btn-div">
+                        <button type="button" class="submit-btn btn btn-primary btn-rounded">Submit</button>
+                    </div>
+
+                </div>
+            </div>
         </div>
         <br>
         <footer>
