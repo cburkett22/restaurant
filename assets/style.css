@@ -1,0 +1,25 @@
+.jumbotron {
+    text-align: center;
+    background-color: rgb(212, 212, 212);
+}
+
+.display-4 {
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.card-header {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.inner-card {
+    border-style: solid;
+    border-color: rgb(212, 212, 212);
+    border-radius: 8px;
+    padding: 12px;
+}
+
+.inner-card-header {
+    font-size: 25px;
+}
